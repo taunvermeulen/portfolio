@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taun's Portfolio</title>
+    <script src="https://kit.fontawesome.com/8e20bcff66.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon/favicon.ico?">
+
+    <!-- On Scroll Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/taunO2.png" alt="taunO logo">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">My Services</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About me</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#work" class="nav__link">My Work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro" data-aos="fade-left">
+            Hi, I am <strong>Taun Vermeulen</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">An Aspiring Dev</p>
+        <img src="img/mecopy.jpg" alt="A picture of Taun Vermeulen" class="intro__img" data-aos="fade-right">
+        
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">
+            What I Do
+        </h2>
+        <div class="services">
+            <div class="service" data-aos="fade-right">
+               <h3>Design and Dev</h3>
+               <p>I enjoy making fun interactive websites that are appealing to the eye and simple enough, even your granny can use them! I am currently focusing on the front-end side of websites. However, I am always excited to learn more and will venture on toward the back-end soon enough.</p> 
+               <!-- I enjoy making fun interactive websites that are applealing to the eye and simple enough, that even your granny can use it! I am currently focusing on the front end side of websites! However, am always excited to learn more and will venture on towards the back end soon enough.   -->
+            </div> <!-- / services -->
+
+            <div class="service" data-aos="fade-left">
+                <h3>Studies</h3>
+                <p>After school, I studied Strategic Marketing Management. Thereafter I journeyed into a more linguistics side of studies, going to Japan for a year where I studied the language. いいですね！There, I stumbled upon coding and as they say the rest is history - I found programming.</p> 
+                <!-- After school I went and studied Strategic Marketing Management. After this I went into a more linguistics side to studies, going to Japan for 1 year and studying the language. いいですね！It was there that I decided to change my career to programming.   -->
+             </div> <!-- / services -->
+            
+            <!-- <div class="service">
+                <h3>WordPress</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+             </div> / services -->
+             
+         </div> <!-- / services -->
+
+         <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">
+            Who I am
+        </h2>
+        <p class="section__subtitle section__subtitle--about">New Developer on the block</p>
+
+        <div data-aos="fade-up" class="about-me__body">
+            <p>Hello world, my name is Taun! I am a developer looking to create a name for myself in the developing community. I love exploring the latest avenues, creating, and learning new things, which is a fitting approach to have in the developing field.</p>
+            <!-- Hello world, my name is Taun! I am a developer looking to create a name for myself in the developing community. I love learning new things (which is a fitting value to have in the developing field) and exploring new avenues. -->
+            <p>I am fascinated in coding. I feel that there is so much to explore with infinite exciting routes that constantly pop up and change the way you look at something. Programming has this way of making someone feel as though they are creating something of actual significance, even if it is just making a button work...</p>
+            <!-- i am really interested in coding as I feel that there is so much to explore with infinite exciting routes that constantly pop up and change the way you look at something. Coding has this way of making someone feel that they are creating something of utmost importance (even if it is just making a button work...). -->
+        </div>
+
+        <img src="img/me2.jpg" alt="A picture of Taun Vermeulen" class="about-me__img" data-aos="fade-down">
+    </section>
+
+    <!-- My work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">
+            My Work
+        </h2>
+        <p class="section__subtitle section__subtitle--work">A Selection of My Range of Work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="portfolio-simongame.html" class="portfolio__item" data-aos="zoom-in">
+                <img src="img/simons-game.jpg" alt="Simon's game board game" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="portfolio-demoweb.html" class="portfolio__item" data-aos="fade-up">
+                <img src="img/portfolio-02.jpg" alt="Interior design app demo website" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="portfolio-quiz.html" class="portfolio__item" data-aos="fade-down">
+                <img src="img/formula1.jpg" alt="Formula One Quiz" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="https://taunvermeulen.github.io/Resume/" class="portfolio__item" target="_blank" data-aos="zoom-in">
+                <img src="img/Resume.jpg"  alt="Taun Vermeulen Resume" class="portfolio__img">
+            </a>
+<!-- 
+             Portfolio item 05 
+            <a href">
+                <img src="" alt="" class="portfolio__img">
+            </a>
+
+             -->
+        </div>
+        <a target="_blank" href="Taun-resume.pdf"><button class="btn btn-resume" download>Download my Resume</button></a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:taunvermeulen@gmail.com" class="footer__link">
+            taunvermeulen@gmail.com
+        </a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/taunvermeulen">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/taun-christopher-vermeulen-634859236/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+        <button class="top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

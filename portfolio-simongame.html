@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taun's Portfolio</title>
+    <script src="https://kit.fontawesome.com/8e20bcff66.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon/favicon.ico?">
+
+    <!-- On Scroll Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/taunO2.png" alt="taunO logo">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="index.html" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="index.html#services" class="nav__link">My Services</a>
+                </li>
+                <li class="nav__item">
+                    <a href="index.html#about" class="nav__link">About me</a>
+                </li>
+                <li class="nav__item">
+                    <a href="index.html#work" class="nav__link">My Work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Project -->
+    <section class="intro">
+        <h1 class="section__title section__title--intro" data-aos="fade-left">
+            An Interactive <strong>Memory Game</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Simon's Game</p>
+        <img src="img/simons-game.png" alt="Simons game board game" class="intro__img" data-aos="fade-right">   
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>Simon's game is a fun interactive memory game, that is based on an old board game. The main idea of the game is to continuously remember consecutive colours and sounds to get a higher score than your friends and family.</p>
+        <!-- Simon's game is a fun interactive memory game, that is based on an old board game. The main idea of the game is continously remember consecutive colours and sounds to get a higher score than your friends and family. -->
+        <div class="container">
+            <img src="img/simons-game-back.png" alt="Simons game board game">
+            <a href="https://taunvermeulen.github.io/Simon-Memory-Game/" target="_blank"><button class="btn btn-resume">Simon's Game</button></a>
+        </div>
+        <p>When making this game, there were a few things that I intended to learn from the experience. I wanted to learn how to effectively use event listeners to make the game interactive, make use of variables to keep a score, use a loop to keep the game going and restart the game when one doesn't succeed, better my commenting skills, and finally make use of jQuery to shorten my code.</p>
+        <!-- When making this game there were a few things that i intended to learn from the experience. I wanted to learn how to effectively use event listeners to make the game interactive, make use of variables to keep a score, use a loop to keep the game going and restart the game when you don't succeed, make use of jQuery to shorten my code, and lastely better my commenting skills. -->
+        <p>I enjoyed this project as it felt like making a real game that becomes more and more challenging. I saw how a fraction of an old framework can save so much time and effort.</p>
+        <!-- I really enjoyed this project as it felt like making a real game that got more and more challenging. I really saw how a fraction of an old framework can save so much time and effort. -->
+    </div>
+
+ 
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:taunvermeulen@gmail.com" class="footer__link">
+            taunvermeulen@gmail.com
+        </a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/taunvermeulen">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/taun-christopher-vermeulen-634859236/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+        <button class="top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

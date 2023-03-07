@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taun's Portfolio</title>
+    <script src="https://kit.fontawesome.com/8e20bcff66.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon/favicon.ico?">
+
+    <!-- On Scroll Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/taunO2.png" alt="taunO logo">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="index.html" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="index.html#services" class="nav__link">My Services</a>
+                </li>
+                <li class="nav__item">
+                    <a href="index.html#about" class="nav__link">About me</a>
+                </li>
+                <li class="nav__item">
+                    <a href="index.html#work" class="nav__link">My Work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Project -->
+    <section class="intro">
+        <h1 class="section__title section__title--intro" data-aos="fade-left">
+            Formula One<strong>Quiz App</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">F1 Quiz App</p>
+        <img src="img/quiz-front.png" alt="Formula One quiz web app" class="intro__img" data-aos="fade-right">   
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>A Quiz App that has a set number of questions on Formula One general knowledge. The app has a countdown to give off some pressure! However, one can always retake the quiz with a push of a button. The quiz also shows the user his or her score afterward.</p>
+        <div class="container">
+            <img src="img/quiz-back.png" alt="Formula One quiz web app">
+            <a href="https://taunvermeulen.github.io/Formula-One-Quiz-App/" target="_blank"><button class="btn btn-resume">Formula 1 Quiz</button></a>
+        </div>
+        <p>When making the quiz, I wanted to focus on making a web app that has a continuous loop so one can retry the quiz without needing to press the refresh button. I wanted to implement a scoring system so users can see how well they know some Formula One general knowledge and compare it with each other.</p>
+        <p>I enjoyed this project! It showed me that there is always a way forward when getting stuck. This project helped me become more comfortable when working with JavaScript.</p>
+    </div>
+
+ 
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:taunvermeulen@gmail.com" class="footer__link">
+            taunvermeulen@gmail.com
+        </a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/taunvermeulen">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/taun-christopher-vermeulen-634859236/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+        <button class="top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
